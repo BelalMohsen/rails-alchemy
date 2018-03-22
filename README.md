@@ -1,4 +1,4 @@
-# rails-alchemy
+# RailsAlchemy
 RailsAlchemy transforms development raw text requirements into an up and running Rails application.<br>
 
 Example:<br>
