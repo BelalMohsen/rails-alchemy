@@ -7,7 +7,7 @@ Execution:<br>
 <img src='https://github.com/slrbl/rails-alchemy/blob/master/image.png'/><br>
 
 Output (Signup page)<br>
-<img src='https://github.com/slrbl/rails-alchemy/blob/master/image2.png'/><br>
+<img width='50%' src='https://github.com/slrbl/rails-alchemy/blob/master/image2.png'/><br>
 
 
 
