@@ -1,4 +1,6 @@
 # RailsAlchemy
+
+<img src='https://s27.postimg.org/a1erbsfg3/alchemy.jpg'/><br>
 RailsAlchemy transforms development raw text requirements into an up and running Rails application.<br>
 
 Execution:<br>
