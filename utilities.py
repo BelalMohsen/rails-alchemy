@@ -19,7 +19,7 @@ import argparse
 init(strip=not sys.stdout.isatty())
 
 def gen_random_id(size=10, chars=string.ascii_lowercase + string.digits):
-    return 'RailsCharm_generated_app_'+''.join(random.choice(chars) for _ in range(size))
+    return 'RailsAlchemy_generated_app_'+''.join(random.choice(chars) for _ in range(size))
 
 def execute_cmd(cmd):
     result = commands.getstatusoutput(cmd)

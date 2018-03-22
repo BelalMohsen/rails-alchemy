@@ -8,7 +8,6 @@ from editors import *
 from args import *
 from analyzers import *
 
-
 def gen_app(dest_path, app_name, entities, roles):
     error_standard = 'Something went wrong'
     # Create the rails app
@@ -71,6 +70,8 @@ def gen_app(dest_path, app_name, entities, roles):
             print '\t$ cd {}/{}'.format(dest_path,app_name)
             print '\t$ rails s'
             print 'And visit http:/0.0.0.0:3000'
+            print 'To get your main URLs, run the following command'
+            print '\t$ rake routes'
     else:
         print 'Something wen wrong creating the app'
         sys.exit(1)
