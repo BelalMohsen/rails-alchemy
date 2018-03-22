@@ -8,7 +8,7 @@ import os
 
 def get_word_definition(word):
     definition = ''
-    dictionary = open('{}/dictionary/wb1913_{}.html'.format(os.path.dirname(os.path.realpath(__file__)),word[0]),'r')
+    dictionary = open('{}/dictionary/wb1913_{}.txt'.format(os.path.dirname(os.path.realpath(__file__)),word[0]),'r')
     for line in dictionary.readlines():
         if '<P><B>{}</B>'.format(word.title()) in line:
             definition += line
